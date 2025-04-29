@@ -18,3 +18,48 @@
 ```bash
 git clone https://github.com/yourusername/panic-log-analyzer.git
 cd panic-log-analyzer
+
+
+2. Create and activate a virtual environment (optional but recommended):
+
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+3. Install the required packages:
+
+pip install -r requirements.txt
+
+4. Run the application:
+
+python panic_log_analyzer.py
+
+File Structure
+
+panic-log-analyzer/
+├── panic_log_analyzer.py       # Main PyQt5 application script
+├── requirements.txt            # Dependencies
+└── README.md                   # Documentation
+
+📦 Requirements
+Python 3.6+
+
+PyQt5
+
+✨ Example Use
+Paste or upload an iPhone panic log.
+
+Choose the processor series.
+
+Click Analyze Log to see the suggested repair points.
+
+📧 Author
+Javadmv
+Feel free to contribute or report issues!
+
+
+---
+
+### 📦 `requirements.txt`
+
+```txt
+PyQt5>=5.15.0
